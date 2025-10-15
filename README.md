@@ -7,13 +7,20 @@
 Проект создан в рамках обучения. Представляет собой веб-приложение для визуализации данных о городских деревьях.
 
 ## 🚀 Быстрый запуск
-\`\`\`bash
-# Бэкенд (порт 3000)
-cd backend && npm install && npm run dev
 
-# Фронтенд (порт 3001)  
-cd frontend && npm install && npm run dev
-\`\`\`
+1. **Скачайте проект:**
+git clone https://github.com/Sulloru/Atlas.git
+cd Atlas
+# Окно 1 - Бэкенд
+cd backend
+npm install
+npm run dev
+
+# Окно 2 - Фронтенд
+cd frontend
+npm install
+npm run dev
+3. **Откройте:** http://localhost:3000 2 .http://localhost:3001
 
 ## 🛠 Технологический стек
 - **Frontend**: Next.js 15, React, TypeScript, Tailwind CSS, Leaflet
